@@ -330,7 +330,17 @@
       content: element(pageHeader);
     }
   }
-
+}
+/* ⑥ 표 안쪽만 굵기 완화 */
+.deviceSection table .up,
+.deviceSection table .down,
+.deviceSection table .flat,
+.deviceSection table .em-red,
+.deviceSection table .em-blue,
+.deviceSection table .em-green {
+  font-weight: 400 !important;
+}
+}
 </style>
 </head>
 
@@ -771,8 +781,7 @@
           21–100 구간은 축소되어 <span class="em-blue">하위 키워드 정리/정합도 개선</span> 성격
         </div>
       </div>
-
-      <div class="card" style="margin-top:14px;">
+<div class="card deviceSection" style="margin-top:14px;">
         <h3>⑥ 기기별 성과 변화 (요약)</h3>
         <div class="sub">GSC 기기별(1월 → 2월) / 핵심만 발췌</div>
 
